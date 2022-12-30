@@ -1,0 +1,35 @@
+
+.container{
+    width: 940px;
+    margin: auto;
+}
+
+body{
+    margin:  auto;
+    line-height: 1.42;
+    font-family:'Montserrat', sans-serif;
+}
+// .footer{
+//     height: $footer-height;
+//     margin-top: -$footer-height;;
+// }
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.ttl{
+    font-size: 40px;
+    text-align: center;
+}
+.txt{
+    font-size: 20px;
+    color: $grey;
+    text-align: center;
+}

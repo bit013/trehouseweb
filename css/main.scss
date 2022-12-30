@@ -1,0 +1,25 @@
+//цвета
+$green: #7cc576;
+$black: #222222;
+$grey: #555555;
+$lightgrey:#cccccc;
+$specialgrey: #f9f9f9;
+$blue: #03a9f4;
+$smokewhite: #e9e9e9;
+$white: #ffffff;
+@mixin img_set{
+    background-position: center;
+    background-repeat: no-repeat;
+}
+@import "settings/adjustment.scss";
+@import "sections/header";
+@import "sections/preview";
+@import "sections/services";
+@import "sections/gear";
+@import "sections/project.scss";
+@import "sections/culture.scss";
+@import "sections/clients.scss";
+@import "sections/nextproject.scss";
+@import "sections/partner.scss";
+@import "sections/contacts.scss";
+@import "sections/footersocials.scss";

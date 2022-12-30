@@ -1,0 +1,78 @@
+.body_culture{
+    padding: 100px 230px;
+    background-color: #f9f9f9;
+}
+.culture_title{
+    color: $black;
+    margin-bottom: 20px;
+}
+.culture_text{
+    margin-bottom: 90px;
+}
+.culture_list{
+    display:grid;
+    grid-template-columns: repeat(3, 290px);
+    grid-gap: 25px;
+
+}
+.culture_item_title{
+    position: relative;
+    font-weight: 700;
+    font-size: 18px;
+}
+.culture_item_text{
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.culture_item_icon{
+    margin: auto;
+    width: 90px;
+    height: 90px;
+    border: 2px solid #555555;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon_star{
+    width: 60px;
+    height: 60px;
+    background-image: url(../img/Icon-Star.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.icon_graph{
+    width: 60px;
+    height: 60px;
+    background-image: url(../img/Icon-Graph.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.icon_music{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/Icon-Music.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.line_bet_block{
+    position: relative;
+    top: -200px;
+    left: 217px;
+    width: 170px;
+    height: 2px;
+    background-color: #777777;
+}
+.line_bet_block2{
+    position: relative;
+    top: -200px;
+    left: 217px;
+    width: 170px;
+    height: 2px;
+    background-color: #777777;
+}

@@ -1,0 +1,118 @@
+.footer_social{
+    background-color: #222222;
+    color: $white;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+}
+.social_block{
+    display: flex;
+}
+.socials_item{
+    margin-bottom: 10px;
+}
+.contacts_item_img{
+    margin-right: 10px;
+}
+.social_title{
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+.socials_item{
+    display: flex;
+}
+.contacts_list{
+    margin-right: 100px;
+}
+.posts_list{
+    margin-right: 25px;
+}
+.posts_list{
+    width: 310px;
+}
+.tweets_item_describe{
+    font-size: 20px;
+    width: 250px;
+}
+.posts_item_describe{
+    font-size: 20px;
+    width: 260px;
+}
+.contacts_item_describe{
+    font-size: 20px;
+    width: 160px;
+}
+.tweets_item_text:hover{
+    color: $green;
+}
+.posts_item_describe:hover{
+    color: $green;
+}
+.contacts_item_describe:hover{
+    color: $green;
+}
+.item_hash{
+    font-size: 16px;
+}
+.item_date{
+    font-size: 12px;
+}
+.tweets_item_img{
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/Twitter.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+}
+.pictures_img{
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/Photo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+}
+.news_img{
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/News.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+}
+.play_img{
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/Media.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+}
+.email_img{
+    width: 28px;
+    height: 25px;
+    background-image: url(../img/email.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+}
+.phone_img{
+    width: 25px;
+    height: 30px;
+    background-image: url(../img/iPhone.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+}
+.location_img{
+    width: 28px;
+    height: 30px;
+    background-image: url(../img/location.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+}
+.block_2{
+    margin-top: 20px;
+}

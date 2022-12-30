@@ -1,0 +1,43 @@
+.body_partner{
+    padding: 60px 230px;
+    background-color: $white;
+}
+.partner_block{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 45px;
+
+}
+.partner_icon1{
+    width: 160px;
+    height: 45px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../img/Envato.png);
+}
+.partner_icon2{
+    width: 180px;
+    height: 45px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../img/WordPress.png);
+}
+.partner_icon3{
+    width: 160px;
+    height: 45px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../img/Tuts+.png);
+}
+.partner_icon4{
+    width: 180px;
+    height: 45px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../img/Microlancer.png);
+}

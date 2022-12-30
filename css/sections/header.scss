@@ -1,0 +1,44 @@
+.header{
+    padding: 42px 0;
+}
+
+.header_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo_block{
+    display: flex;
+}
+.logo_name{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+.logo_img{
+    width: 30px;
+    height: 30px;
+    background-color: $green;
+    border-radius: 20px;
+    margin-right: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/leaf.png);
+}
+
+.panel_item{
+    font-size: 14px;
+    margin-right: 36px;
+}
+.panel_link{
+    color: $grey;
+    font-weight: 700;
+}
+.panel_link:hover{
+    color: $black;
+}
+.panel_list{
+    display: flex;
+}

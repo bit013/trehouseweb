@@ -1,0 +1,109 @@
+.project_titles_block{
+    margin-bottom: 90px;
+}
+// .project_main_info{
+//     width: 470px;
+// }
+.body_project{
+    padding: 100px 230px;
+    background-image: url(../img/ipad.png);
+    
+    background-position: 800px 300px;
+    background-repeat: no-repeat;
+}    
+.project_name{
+    font-size: 18px;
+    color: $black;
+    text-align: start;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+.project_description{
+    margin-bottom: 25px;
+    width: 420px;
+}
+.project_description{
+    text-align: start;
+    font-size: 16px;
+}
+.project_item_name{
+    font-size: 18px;
+    color: $black;
+    text-align: start;
+    font-weight: 700;
+}
+.project_item_description{
+    text-align: start;
+    font-size: 16px;
+    color: $grey;
+}
+.project_link_set{
+    color: $green;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+}
+.project_link_set:hover{
+    color: $black;
+}
+.project_link_set::after {
+    content: "→";
+    margin-left: 5px;
+}
+.project_link{
+    width: 130px;
+}
+
+.project_list{
+    margin-bottom: 15px;
+}
+.project_otherinfo{
+    margin-bottom: 25px;
+    width: 470px;
+}
+.project_img_block{
+    width: 72px;
+    height: 72px;
+    border: 2px solid $black;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.project_list_item{
+    display: flex;
+    margin-bottom: 15px;
+    align-items:center ;
+}
+.project_link{
+    width: 150px;
+}
+.project_list_item:last-child{
+    margin-bottom: 0;
+}
+.project_item_text{
+    margin-left: 15px;
+}
+.project_icon{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+.project_img_block{
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: small;
+}
+.basket{
+    background-image: url(../img/Basket.png);
+}
+
+.laptop{
+    background-image: url(../img/Laptop.png);
+}
+.locked{
+    background-image: url(../img/Locked.png);
+}
